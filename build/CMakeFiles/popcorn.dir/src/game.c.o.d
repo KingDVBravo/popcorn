@@ -180,4 +180,7 @@ CMakeFiles/popcorn.dir/src/game.c.o: /home/uzair/popcorn/src/game.c \
  /usr/include/SDL2/SDL.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h \
  /home/uzair/popcorn/include/assets/tile.h \
- /home/uzair/popcorn/include/assets/tile.h
+ /home/uzair/popcorn/include/assets/player.h \
+ /home/uzair/popcorn/include/assets/tile.h \
+ /home/uzair/popcorn/include/assets/tile.h \
+ /home/uzair/popcorn/include/assets/player.h

@@ -1,7 +1,9 @@
-CMakeFiles/popcorn.dir/src/main.c.o: /home/uzair/popcorn/src/main.c \
- /usr/include/stdc-predef.h /home/uzair/popcorn/include/game.h \
- /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
- /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
+CMakeFiles/popcorn.dir/src/assets/entity.c.o: \
+ /home/uzair/popcorn/src/assets/entity.c /usr/include/stdc-predef.h \
+ /home/uzair/popcorn/include/assets/entity.h \
+ /home/uzair/popcorn/include/assets/tile.h /usr/include/SDL2/SDL.h \
+ /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
+ /usr/include/SDL2/SDL_config.h \
  /usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h \
  /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/begin_code.h \
  /usr/include/SDL2/close_code.h /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -177,8 +179,4 @@ CMakeFiles/popcorn.dir/src/main.c.o: /home/uzair/popcorn/src/main.c \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_image.h \
- /usr/include/SDL2/SDL.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h \
- /home/uzair/popcorn/include/assets/tile.h \
- /home/uzair/popcorn/include/assets/player.h \
- /home/uzair/popcorn/include/assets/tile.h
+ /usr/include/SDL2/SDL.h
