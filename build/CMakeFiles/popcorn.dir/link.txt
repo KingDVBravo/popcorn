@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/popcorn.dir/src/assets/entity.c.o CMakeFiles/popcorn.dir/src/assets/tile.c.o CMakeFiles/popcorn.dir/src/game.c.o CMakeFiles/popcorn.dir/src/main.c.o -o popcorn  -lSDL2 -lSDL2_image -lSDL2 -lSDL2_image 

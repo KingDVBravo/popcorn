@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/uzair/popcorn/build",
+  "command": "/usr/bin/gcc  -I/usr/include/SDL2 -I/usr/include/libpng16 -I/home/uzair/popcorn/include -g -Wall -Wextra -pedantic -std=gnu11 -o CMakeFiles/popcorn.dir/src/assets/entity.c.o -c /home/uzair/popcorn/src/assets/entity.c",
+  "file": "/home/uzair/popcorn/src/assets/entity.c"
+},
+{
+  "directory": "/home/uzair/popcorn/build",
+  "command": "/usr/bin/gcc  -I/usr/include/SDL2 -I/usr/include/libpng16 -I/home/uzair/popcorn/include -g -Wall -Wextra -pedantic -std=gnu11 -o CMakeFiles/popcorn.dir/src/assets/tile.c.o -c /home/uzair/popcorn/src/assets/tile.c",
+  "file": "/home/uzair/popcorn/src/assets/tile.c"
+},
+{
+  "directory": "/home/uzair/popcorn/build",
+  "command": "/usr/bin/gcc  -I/usr/include/SDL2 -I/usr/include/libpng16 -I/home/uzair/popcorn/include -g -Wall -Wextra -pedantic -std=gnu11 -o CMakeFiles/popcorn.dir/src/game.c.o -c /home/uzair/popcorn/src/game.c",
+  "file": "/home/uzair/popcorn/src/game.c"
+},
+{
+  "directory": "/home/uzair/popcorn/build",
+  "command": "/usr/bin/gcc  -I/usr/include/SDL2 -I/usr/include/libpng16 -I/home/uzair/popcorn/include -g -Wall -Wextra -pedantic -std=gnu11 -o CMakeFiles/popcorn.dir/src/main.c.o -c /home/uzair/popcorn/src/main.c",
+  "file": "/home/uzair/popcorn/src/main.c"
+}
+]

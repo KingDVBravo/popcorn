@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/MySDL2App.dir/src/main.c.o -o MySDL2App  /usr/lib/x86_64-linux-gnu/libSDL2.so 
