@@ -69,10 +69,24 @@ include CMakeFiles/popcorn.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/popcorn.dir/flags.make
 
+CMakeFiles/popcorn.dir/src/assets/asset.c.o: CMakeFiles/popcorn.dir/flags.make
+CMakeFiles/popcorn.dir/src/assets/asset.c.o: /home/uzair/popcorn/src/assets/asset.c
+CMakeFiles/popcorn.dir/src/assets/asset.c.o: CMakeFiles/popcorn.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/popcorn.dir/src/assets/asset.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/popcorn.dir/src/assets/asset.c.o -MF CMakeFiles/popcorn.dir/src/assets/asset.c.o.d -o CMakeFiles/popcorn.dir/src/assets/asset.c.o -c /home/uzair/popcorn/src/assets/asset.c
+
+CMakeFiles/popcorn.dir/src/assets/asset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/popcorn.dir/src/assets/asset.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/uzair/popcorn/src/assets/asset.c > CMakeFiles/popcorn.dir/src/assets/asset.c.i
+
+CMakeFiles/popcorn.dir/src/assets/asset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/popcorn.dir/src/assets/asset.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/uzair/popcorn/src/assets/asset.c -o CMakeFiles/popcorn.dir/src/assets/asset.c.s
+
 CMakeFiles/popcorn.dir/src/assets/entity.c.o: CMakeFiles/popcorn.dir/flags.make
 CMakeFiles/popcorn.dir/src/assets/entity.c.o: /home/uzair/popcorn/src/assets/entity.c
 CMakeFiles/popcorn.dir/src/assets/entity.c.o: CMakeFiles/popcorn.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/popcorn.dir/src/assets/entity.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/popcorn.dir/src/assets/entity.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/popcorn.dir/src/assets/entity.c.o -MF CMakeFiles/popcorn.dir/src/assets/entity.c.o.d -o CMakeFiles/popcorn.dir/src/assets/entity.c.o -c /home/uzair/popcorn/src/assets/entity.c
 
 CMakeFiles/popcorn.dir/src/assets/entity.c.i: cmake_force
@@ -83,10 +97,24 @@ CMakeFiles/popcorn.dir/src/assets/entity.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/popcorn.dir/src/assets/entity.c.s"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/uzair/popcorn/src/assets/entity.c -o CMakeFiles/popcorn.dir/src/assets/entity.c.s
 
+CMakeFiles/popcorn.dir/src/assets/player.c.o: CMakeFiles/popcorn.dir/flags.make
+CMakeFiles/popcorn.dir/src/assets/player.c.o: /home/uzair/popcorn/src/assets/player.c
+CMakeFiles/popcorn.dir/src/assets/player.c.o: CMakeFiles/popcorn.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/popcorn.dir/src/assets/player.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/popcorn.dir/src/assets/player.c.o -MF CMakeFiles/popcorn.dir/src/assets/player.c.o.d -o CMakeFiles/popcorn.dir/src/assets/player.c.o -c /home/uzair/popcorn/src/assets/player.c
+
+CMakeFiles/popcorn.dir/src/assets/player.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/popcorn.dir/src/assets/player.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/uzair/popcorn/src/assets/player.c > CMakeFiles/popcorn.dir/src/assets/player.c.i
+
+CMakeFiles/popcorn.dir/src/assets/player.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/popcorn.dir/src/assets/player.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/uzair/popcorn/src/assets/player.c -o CMakeFiles/popcorn.dir/src/assets/player.c.s
+
 CMakeFiles/popcorn.dir/src/assets/tile.c.o: CMakeFiles/popcorn.dir/flags.make
 CMakeFiles/popcorn.dir/src/assets/tile.c.o: /home/uzair/popcorn/src/assets/tile.c
 CMakeFiles/popcorn.dir/src/assets/tile.c.o: CMakeFiles/popcorn.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/popcorn.dir/src/assets/tile.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/popcorn.dir/src/assets/tile.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/popcorn.dir/src/assets/tile.c.o -MF CMakeFiles/popcorn.dir/src/assets/tile.c.o.d -o CMakeFiles/popcorn.dir/src/assets/tile.c.o -c /home/uzair/popcorn/src/assets/tile.c
 
 CMakeFiles/popcorn.dir/src/assets/tile.c.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/popcorn.dir/src/assets/tile.c.s: cmake_force
 CMakeFiles/popcorn.dir/src/game.c.o: CMakeFiles/popcorn.dir/flags.make
 CMakeFiles/popcorn.dir/src/game.c.o: /home/uzair/popcorn/src/game.c
 CMakeFiles/popcorn.dir/src/game.c.o: CMakeFiles/popcorn.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/popcorn.dir/src/game.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/popcorn.dir/src/game.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/popcorn.dir/src/game.c.o -MF CMakeFiles/popcorn.dir/src/game.c.o.d -o CMakeFiles/popcorn.dir/src/game.c.o -c /home/uzair/popcorn/src/game.c
 
 CMakeFiles/popcorn.dir/src/game.c.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/popcorn.dir/src/game.c.s: cmake_force
 CMakeFiles/popcorn.dir/src/main.c.o: CMakeFiles/popcorn.dir/flags.make
 CMakeFiles/popcorn.dir/src/main.c.o: /home/uzair/popcorn/src/main.c
 CMakeFiles/popcorn.dir/src/main.c.o: CMakeFiles/popcorn.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/popcorn.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/popcorn.dir/src/main.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/popcorn.dir/src/main.c.o -MF CMakeFiles/popcorn.dir/src/main.c.o.d -o CMakeFiles/popcorn.dir/src/main.c.o -c /home/uzair/popcorn/src/main.c
 
 CMakeFiles/popcorn.dir/src/main.c.i: cmake_force
@@ -127,7 +155,9 @@ CMakeFiles/popcorn.dir/src/main.c.s: cmake_force
 
 # Object files for target popcorn
 popcorn_OBJECTS = \
+"CMakeFiles/popcorn.dir/src/assets/asset.c.o" \
 "CMakeFiles/popcorn.dir/src/assets/entity.c.o" \
+"CMakeFiles/popcorn.dir/src/assets/player.c.o" \
 "CMakeFiles/popcorn.dir/src/assets/tile.c.o" \
 "CMakeFiles/popcorn.dir/src/game.c.o" \
 "CMakeFiles/popcorn.dir/src/main.c.o"
@@ -135,13 +165,15 @@ popcorn_OBJECTS = \
 # External object files for target popcorn
 popcorn_EXTERNAL_OBJECTS =
 
+popcorn: CMakeFiles/popcorn.dir/src/assets/asset.c.o
 popcorn: CMakeFiles/popcorn.dir/src/assets/entity.c.o
+popcorn: CMakeFiles/popcorn.dir/src/assets/player.c.o
 popcorn: CMakeFiles/popcorn.dir/src/assets/tile.c.o
 popcorn: CMakeFiles/popcorn.dir/src/game.c.o
 popcorn: CMakeFiles/popcorn.dir/src/main.c.o
 popcorn: CMakeFiles/popcorn.dir/build.make
 popcorn: CMakeFiles/popcorn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable popcorn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable popcorn"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/popcorn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

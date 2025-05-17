@@ -129,6 +129,30 @@ popcorn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/build
 .PHONY : popcorn/fast
 
+src/assets/asset.o: src/assets/asset.c.o
+.PHONY : src/assets/asset.o
+
+# target to build an object file
+src/assets/asset.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/asset.c.o
+.PHONY : src/assets/asset.c.o
+
+src/assets/asset.i: src/assets/asset.c.i
+.PHONY : src/assets/asset.i
+
+# target to preprocess a source file
+src/assets/asset.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/asset.c.i
+.PHONY : src/assets/asset.c.i
+
+src/assets/asset.s: src/assets/asset.c.s
+.PHONY : src/assets/asset.s
+
+# target to generate assembly for a file
+src/assets/asset.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/asset.c.s
+.PHONY : src/assets/asset.c.s
+
 src/assets/entity.o: src/assets/entity.c.o
 .PHONY : src/assets/entity.o
 
@@ -152,6 +176,30 @@ src/assets/entity.s: src/assets/entity.c.s
 src/assets/entity.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/entity.c.s
 .PHONY : src/assets/entity.c.s
+
+src/assets/player.o: src/assets/player.c.o
+.PHONY : src/assets/player.o
+
+# target to build an object file
+src/assets/player.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/player.c.o
+.PHONY : src/assets/player.c.o
+
+src/assets/player.i: src/assets/player.c.i
+.PHONY : src/assets/player.i
+
+# target to preprocess a source file
+src/assets/player.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/player.c.i
+.PHONY : src/assets/player.c.i
+
+src/assets/player.s: src/assets/player.c.s
+.PHONY : src/assets/player.s
+
+# target to generate assembly for a file
+src/assets/player.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/player.c.s
+.PHONY : src/assets/player.c.s
 
 src/assets/tile.o: src/assets/tile.c.o
 .PHONY : src/assets/tile.o
@@ -234,9 +282,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... popcorn"
+	@echo "... src/assets/asset.o"
+	@echo "... src/assets/asset.i"
+	@echo "... src/assets/asset.s"
 	@echo "... src/assets/entity.o"
 	@echo "... src/assets/entity.i"
 	@echo "... src/assets/entity.s"
+	@echo "... src/assets/player.o"
+	@echo "... src/assets/player.i"
+	@echo "... src/assets/player.s"
 	@echo "... src/assets/tile.o"
 	@echo "... src/assets/tile.i"
 	@echo "... src/assets/tile.s"

@@ -16,4 +16,5 @@ void gameRender( Game* game);
 Game* gameInit();
 void gameLoop( Game* game);
 void gameExit( Game* game);
+void gameControls( SDL_Event event, Game* game );
 #endif

@@ -81,6 +81,10 @@ void gameLoop(Game* game)
             {
                 game->running = false;
             }
+            if (event.type = SDL_KEYDOWN)
+            {
+                gameControls(event, game);
+            }
         }
     }
     SDL_Delay(16);

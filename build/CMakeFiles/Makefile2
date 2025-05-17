@@ -81,12 +81,12 @@ clean: CMakeFiles/popcorn.dir/clean
 CMakeFiles/popcorn.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target popcorn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/uzair/popcorn/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target popcorn"
 .PHONY : CMakeFiles/popcorn.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/popcorn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/uzair/popcorn/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uzair/popcorn/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/popcorn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/uzair/popcorn/build/CMakeFiles 0
 .PHONY : CMakeFiles/popcorn.dir/rule

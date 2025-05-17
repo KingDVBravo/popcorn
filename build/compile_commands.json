@@ -1,8 +1,18 @@
 [
 {
   "directory": "/home/uzair/popcorn/build",
+  "command": "/usr/bin/gcc  -I/usr/include/SDL2 -I/usr/include/libpng16 -I/home/uzair/popcorn/include -g -Wall -Wextra -pedantic -std=gnu11 -o CMakeFiles/popcorn.dir/src/assets/asset.c.o -c /home/uzair/popcorn/src/assets/asset.c",
+  "file": "/home/uzair/popcorn/src/assets/asset.c"
+},
+{
+  "directory": "/home/uzair/popcorn/build",
   "command": "/usr/bin/gcc  -I/usr/include/SDL2 -I/usr/include/libpng16 -I/home/uzair/popcorn/include -g -Wall -Wextra -pedantic -std=gnu11 -o CMakeFiles/popcorn.dir/src/assets/entity.c.o -c /home/uzair/popcorn/src/assets/entity.c",
   "file": "/home/uzair/popcorn/src/assets/entity.c"
+},
+{
+  "directory": "/home/uzair/popcorn/build",
+  "command": "/usr/bin/gcc  -I/usr/include/SDL2 -I/usr/include/libpng16 -I/home/uzair/popcorn/include -g -Wall -Wextra -pedantic -std=gnu11 -o CMakeFiles/popcorn.dir/src/assets/player.c.o -c /home/uzair/popcorn/src/assets/player.c",
+  "file": "/home/uzair/popcorn/src/assets/player.c"
 },
 {
   "directory": "/home/uzair/popcorn/build",
