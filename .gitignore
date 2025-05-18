@@ -5,3 +5,6 @@ CMakeFiles/
 *.cbp
 *.log
 *.depend
+*.make
+cmake_install.cmake
+Makefile
