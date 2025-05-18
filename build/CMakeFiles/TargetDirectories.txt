@@ -1,3 +1,0 @@
-/home/uzair/popcorn/build/CMakeFiles/popcorn.dir
-/home/uzair/popcorn/build/CMakeFiles/edit_cache.dir
-/home/uzair/popcorn/build/CMakeFiles/rebuild_cache.dir
