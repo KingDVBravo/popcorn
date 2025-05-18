@@ -15,4 +15,6 @@ typedef struct
 Tile_t* tileCreate(float x, float y, SDL_Renderer* renderer, int id);
 void tileClean(Tile_t* tile);
 void tileSetNewTexture(Tile_t* tile, int id);
+void tileRender(Tile_t* tile, SDL_Renderer* renderer);
+
 #endif

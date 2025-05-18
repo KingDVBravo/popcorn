@@ -16,15 +16,40 @@ Player_T* createPlayer(float x, float y, SDL_Renderer* renderer)
         SDL_Log("ERROR: FAILED TO CHOP PLAYER TILE");
         return NULL;
     }
+    return player;
 }
-void playerUpdate(SDL_Event event, Player_T* player, float x, float y)
+void playerUpdate(Player_T* player, float x, float y)
 {   
-    
-    
+    if (!player)
+    {
+        SDL_Log("ERROR: PLAYER NOT FOUND");
+        return;
+    }
+    if (!&player->tile->frame)
+    {
+        SDL_Log("ERROR: PLAYER FRAME NOT FOUND");
+    }
+    player->tile->frame.x += x;
+    player->tile->frame.y += y;
+    return;
 }
 void playerClean(Player_T* player)
 {
     tileClean(player->tile);
     free(player);
     return;
+}
+void playerRender(Player_T *player, SDL_Renderer *renderer)
+{
+    if (!player)
+    {
+        SDL_Log("ERROR: FAILED TO LOAD PLAYER (RENDER PLAYER)");
+        return;
+    }
+    if (!renderer)
+    {
+        SDL_Log("ERROR: FAILED TO LOAD RENDERER (RENDER PLAYER)");
+        return;
+    }
+    SDL_RenderCopyF(renderer, player->tile->texture, &player->tile->srcFrame, &player->tile->frame);
 }

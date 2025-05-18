@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/popcorn.dir/src/assets/entity.c.o.d"
   "CMakeFiles/popcorn.dir/src/assets/player.c.o"
   "CMakeFiles/popcorn.dir/src/assets/player.c.o.d"
+  "CMakeFiles/popcorn.dir/src/assets/scene.c.o"
+  "CMakeFiles/popcorn.dir/src/assets/scene.c.o.d"
   "CMakeFiles/popcorn.dir/src/assets/tile.c.o"
   "CMakeFiles/popcorn.dir/src/assets/tile.c.o.d"
   "CMakeFiles/popcorn.dir/src/game.c.o"

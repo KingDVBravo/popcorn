@@ -1,17 +1,37 @@
 #include "game.h"
 #include "assets/tile.h"
+#include "assets/player.h"
 
 void gameRender(Game* game)
 {
     if (game == NULL)
+    {
         SDL_Log("ERROR: Game not intialized!");
+        return;
+    }
     if (game->renderer == NULL)
+    {
         SDL_Log("ERROR: Renderer not intialized!");
+        return;
+    }
     if (game->window == NULL)
+    {
         SDL_Log("ERROR: Window not intialized!");
+        return;
+    }
+    if (game->player == NULL)
+    {
+        SDL_Log("ERROR PLAYER NOT INTIALIZED");
+        return;
+    }
+    if (!game->player->tile || !game->player->tile->texture) {
+        SDL_Log("ERROR: Player tile or texture not initialized");
+        return;
+    }
+
     SDL_SetRenderDrawColor(game->renderer, 255, 255, 255, 255);
     SDL_RenderClear(game->renderer);
-    SDL_RenderCopyF(game->renderer, game->tile->texture, &game->tile->srcFrame, &game->tile->frame);
+    SDL_RenderCopyF(game->renderer, game->player->tile->texture, &game->player->tile->srcFrame, &game->player->tile->frame);
     /*
     float window_width = 1080.0f;
     float window_height = 720.0f;
@@ -27,6 +47,24 @@ void gameRender(Game* game)
     SDL_RenderPresent(game->renderer);
 
 }
+void gameControls(Game* game)
+{
+    if (!game || !game->player)
+        return;
+
+    const Uint8* keystates = SDL_GetKeyboardState(NULL);
+    float speed = 2.0f;
+
+    if (keystates[SDL_SCANCODE_W])
+        playerUpdate(game->player, 0, -speed);
+    if (keystates[SDL_SCANCODE_A])
+        playerUpdate(game->player, -speed, 0);
+    if (keystates[SDL_SCANCODE_S])
+        playerUpdate(game->player, 0, speed);
+    if (keystates[SDL_SCANCODE_D])
+        playerUpdate(game->player, speed, 0);
+}
+
 Game* gameInit()
 {
     if (SDL_Init(SDL_INIT_VIDEO) < 0)
@@ -55,7 +93,7 @@ Game* gameInit()
         free(game);
         return NULL;
     }
-    game->tile = tileCreate(0, 0, game->renderer, 2);
+    game->player = createPlayer(0, 0, game->renderer);
     game->running = true;
     return game;
 }
@@ -81,10 +119,7 @@ void gameLoop(Game* game)
             {
                 game->running = false;
             }
-            if (event.type = SDL_KEYDOWN)
-            {
-                gameControls(event, game);
-            }
+            gameControls(game);
         }
     }
     SDL_Delay(16);
@@ -92,9 +127,7 @@ void gameLoop(Game* game)
 void gameExit(Game* game)
 {
     if (!game) return;
-
-    tileClean(game->tile);
-
+    playerClean(game->player);
     SDL_DestroyRenderer(game->renderer);
     SDL_DestroyWindow(game->window);
     free(game);

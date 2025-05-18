@@ -4,17 +4,18 @@
 #include <SDL2/SDL_image.h>
 #include <stdbool.h>
 #include "assets/tile.h"
+#include "assets/player.h"
 
 typedef struct
 {
     SDL_Window* window;
     SDL_Renderer* renderer;
     bool running;
-    Tile_t* tile;
+    Player_T* player;
 }Game;
 void gameRender( Game* game);
 Game* gameInit();
 void gameLoop( Game* game);
 void gameExit( Game* game);
-void gameControls( SDL_Event event, Game* game );
+void gameControls( Game* game );
 #endif

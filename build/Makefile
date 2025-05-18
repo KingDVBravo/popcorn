@@ -201,6 +201,30 @@ src/assets/player.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/player.c.s
 .PHONY : src/assets/player.c.s
 
+src/assets/scene.o: src/assets/scene.c.o
+.PHONY : src/assets/scene.o
+
+# target to build an object file
+src/assets/scene.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/scene.c.o
+.PHONY : src/assets/scene.c.o
+
+src/assets/scene.i: src/assets/scene.c.i
+.PHONY : src/assets/scene.i
+
+# target to preprocess a source file
+src/assets/scene.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/scene.c.i
+.PHONY : src/assets/scene.c.i
+
+src/assets/scene.s: src/assets/scene.c.s
+.PHONY : src/assets/scene.s
+
+# target to generate assembly for a file
+src/assets/scene.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/popcorn.dir/build.make CMakeFiles/popcorn.dir/src/assets/scene.c.s
+.PHONY : src/assets/scene.c.s
+
 src/assets/tile.o: src/assets/tile.c.o
 .PHONY : src/assets/tile.o
 
@@ -291,6 +315,9 @@ help:
 	@echo "... src/assets/player.o"
 	@echo "... src/assets/player.i"
 	@echo "... src/assets/player.s"
+	@echo "... src/assets/scene.o"
+	@echo "... src/assets/scene.i"
+	@echo "... src/assets/scene.s"
 	@echo "... src/assets/tile.o"
 	@echo "... src/assets/tile.i"
 	@echo "... src/assets/tile.s"

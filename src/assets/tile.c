@@ -14,6 +14,10 @@ Tile_t* tileCreate(float x, float y, SDL_Renderer* renderer, int id)
         return NULL;
     }
     Tile_t* tile = calloc(1, sizeof(Tile_t));
+    if (!tile) {
+        SDL_Log("ERROR: FAILED TO ALLOCATE TILE");
+        return NULL;
+    }
     tile->x = x;
     tile->y = y;
     tile->w = 64;
@@ -39,6 +43,7 @@ Tile_t* tileCreate(float x, float y, SDL_Renderer* renderer, int id)
         tileClean(tile);
         return NULL;
     }
+    SDL_Log("Tile created at (%.0f, %.0f), ID: %d", x, y, id);
     return tile;
 }
 
@@ -62,4 +67,18 @@ void tileSetNewTexture(Tile_t* tile, int id)
         return;
     }
     tile->srcFrame = getSpriteFromId(id);
+}
+
+void tileRender(Tile_t *tile, SDL_Renderer *renderer)
+{
+    if (!tile)
+    {
+        SDL_Log("ERROR: FAILED TO LOAD TILE (RENDER TILE)");
+        return;
+    }
+    if (!renderer)
+    {
+        SDL_Log("ERROR: FAILED TO LOAD RENDERER (RENDER TILE)");
+    }
+    SDL_RenderCopyF(renderer, tile->texture, &tile->srcFrame, &tile->frame);
 }
