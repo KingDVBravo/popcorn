@@ -1106,6 +1106,7 @@ CMakeFiles/popcorn.dir/src/game.c.o
 CMakeFiles/popcorn.dir/src/main.c.o
  /home/uzair/popcorn/src/main.c
  /usr/include/stdc-predef.h
+ /home/uzair/popcorn/include/common.h
  /home/uzair/popcorn/include/game.h
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_main.h

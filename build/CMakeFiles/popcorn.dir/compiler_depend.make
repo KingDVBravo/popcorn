@@ -1100,6 +1100,7 @@ CMakeFiles/popcorn.dir/src/game.c.o: /home/uzair/popcorn/src/game.c \
 
 CMakeFiles/popcorn.dir/src/main.c.o: /home/uzair/popcorn/src/main.c \
   /usr/include/stdc-predef.h \
+  /home/uzair/popcorn/include/common.h \
   /home/uzair/popcorn/include/game.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_main.h \
@@ -1320,6 +1321,8 @@ CMakeFiles/popcorn.dir/src/main.c.o: /home/uzair/popcorn/src/main.c \
   /home/uzair/popcorn/include/assets/player.h \
   /home/uzair/popcorn/include/assets/tile.h
 
+
+/home/uzair/popcorn/include/common.h:
 
 /home/uzair/popcorn/src/main.c:
 
