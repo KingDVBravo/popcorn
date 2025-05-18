@@ -13,6 +13,7 @@ Go to the project directory and build directory
 
 ```bash
   cd popcorn
+  mkdir build
   cd build
 ```
 
